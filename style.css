@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Sequel65";
+    src: url("assets/Sequel100Black-65.ttf");
+}
+
+@font-face {
+    font-family: "Sequel55";
+    src: url("assets/Sequel100Black-55.ttf");
+}
+
+/* .pic-box {
+    margin: 0;
+    width: 375px;
+    height: 600px;
+    border: 3px solid black;
+    display: flex;
+    position: absolute;
+    left: 65%;
+} */
+
+.pic-box img {
+    top: -5.5%;
+    left: 30%;
+    width: 950px;
+    height: 700px;
+    /* border: 3px solid black; */
+    display: inline-flex;
+    position: absolute;
+}
+
+/* .pic-box img {
+    position: relative;
+} */
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, rgb(247, 58, 83), 55%, rgb(231, 87, 15))
+}
+
+.intro {
+    padding: 60px 175px;
+    font-family: 'Sequel65';
+    width: 50%;
+}
+
+.intro-title {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.heading {
+    width: 90%;
+    padding: 0;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow:
+        0 2px 0 hsl(224, 15%, 95%),
+        0 3px 0 hsl(244, 15%, 90%),
+        0 3px 0 hsl(244, 50%, 90%),
+        0 3px 0 hsl(224, 50%, 90%),
+        0 2px 0 hsl(174, 50%, 100%),
+        0 0 5px rgba(10, 0, 0, .05),
+        0 1px 3px rgba(10, 0, 0, .2),
+        0 3px 5px rgba(20, 0, 0, .2),
+        0 18px 10px rgba(20, 0, 0, .2),
+        0 30px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .3);
+}
+
+.intro-text {
+    width: 85%;
+    font-size: 1.1em;
+    color: white;
+    font-family: "Sequel55";
+    text-transform: uppercase;
+}
