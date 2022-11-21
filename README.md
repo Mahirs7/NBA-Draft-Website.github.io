@@ -7,3 +7,4 @@
 * Heading text styling
 * Image styling and border box
 * Perfect background color
+* Responsiveness
