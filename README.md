@@ -3,7 +3,7 @@
 
 ## TO DOs
 
-* Possible spacing
+* Compressing text (words - font-stretch)
 * Heading text styling
 * Image styling and border box
 * Perfect background color
